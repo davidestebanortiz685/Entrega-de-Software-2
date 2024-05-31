@@ -6,13 +6,13 @@ function ClienteForm ({onSubmit}){
     const[precio,setPrecio]= useState('')
     const[peso,setPeso]= useState('')
 
-    const handlenombrepChange = (event) =>{
+    const handleNombrepChange = (event) =>{
         setNombrep(event.target.value)
     }
-    const handleprecioChange = (event) =>{
+    const handlePrecioChange = (event) =>{
         setPrecio(event.target.value)
     }
-    const handlepesoChange = (event) =>{
+    const handlePesoChange = (event) =>{
         setPeso(event.target.value)
     }
     //Funcion para enviar el formulario
@@ -25,10 +25,10 @@ function ClienteForm ({onSubmit}){
     }
     //contiene el boton para agregar productos y las casillas para ingresar la informacion
     return(
-        <form onsubmit={handleSubmit}>
-            <input type="text" placeholder="Nombre Producto" value ={nombrep} onChange={handlenombrepChange} />
-            <input type="text" placeholder="Precio" value ={precio} onChange={handleprecioChange} />
-            <input type="text" placeholder="Peso" value ={peso} onChange={handlepesoChange} />
+        <form onSubmit={handleSubmit}>
+            <input type="text" placeholder="Nombre Producto" value ={nombrep} onChange={handleNombrepChange} required/>
+            <input type="text" placeholder="Precio" value ={precio} onChange={handlePrecioChange} required/>
+            <input type="text" placeholder="Peso" value ={peso} onChange={handlePesoChange} required/>
 
             <button type="submit"> Guardar </button>
         </form>

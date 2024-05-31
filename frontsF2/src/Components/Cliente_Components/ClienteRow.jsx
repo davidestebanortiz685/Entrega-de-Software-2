@@ -1,5 +1,4 @@
-//funciones para editar un cliente y eliminar un cliente
-function ClienteRow({cliente,onEdit,onDelete}){
+function ClienteRow({cliente,onEdit,onDelete}) {
     const handleEdit = ()=>{
         onEdit(cliente)
     }

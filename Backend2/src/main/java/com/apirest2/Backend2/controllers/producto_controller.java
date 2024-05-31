@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("/api/productos")
-public class producto_controller {  
+public class producto_controller extends ApiBaseController {  
     @Autowired
     private   producto_repository producto_Repository;
 

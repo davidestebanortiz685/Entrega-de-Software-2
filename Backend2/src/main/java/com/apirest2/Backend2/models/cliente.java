@@ -1,5 +1,7 @@
 package com.apirest2.Backend2.models;
 
+import com.apirest2.Backend2.controllers.ApiBaseController;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

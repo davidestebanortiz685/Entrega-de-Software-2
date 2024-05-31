@@ -12,7 +12,7 @@ public class cors_config implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-        .allowedOrigins("http://localhost:5173")//Escribir la Url del proyecto front a conectar
+        .allowedOrigins("http://localhost:5174")//Escribir la Url del proyecto front a conectar
         .allowedMethods("*")//PODEMOS ESPECIFICAR LOS METODOS A PERMITIR DESDE EL FRONT,GET,POST,PUT,DELETE
          .allowCredentials(true);
     }

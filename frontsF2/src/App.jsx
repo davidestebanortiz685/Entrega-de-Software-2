@@ -43,7 +43,7 @@ function App() {
     }
   //Permite eliminar un Cliente apartir de una ID
   const handleDeleteCliente = async(ClienteID)=>{
-    await axios.delete(`http://localhost:8080/api/clientes/${ClienteID}`)
+    await axios.delete(`http://localhost:8080/api/productos/${ClienteID}`)
     fetchClientes()
   }
 

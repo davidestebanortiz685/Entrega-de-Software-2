@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("/api/clientes")
-public class cliente_controller {  
+public class cliente_controller extends ApiBaseController {  
     @Autowired
     private   cliente_repository cliente_Repository;
 

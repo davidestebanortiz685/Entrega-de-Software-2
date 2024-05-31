@@ -3,15 +3,15 @@ Tambien se encuentra el ejecisio que se hizo en clase
 
 Pruebas
 Navegador
-![alt text](image.png)
+
 
 MySQL
 
 Clientes
-![alt text](image-1.png)
+
 
 Productos
-![alt text](image-2.png)
+
 
 HAY ERRORES PARA GUARDAR LOS PRODUCTOS Y LOS CLIENTES
 
